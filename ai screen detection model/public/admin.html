@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="topbar">
+        <div class="brand-lockup">
+          <div class="brand-mark"></div>
+          <div class="brand-copy">
+            <strong>Integrity OS</strong>
+            <span>Admin command center</span>
+          </div>
+        </div>
+        <div class="topbar-actions">
+          <a class="button secondary" href="/">Portal</a>
+        </div>
+      </section>
+
+      <section class="hero compact">
+        <div class="hero-main">
+          <div class="eyebrow">Admin Console</div>
+          <h1>Live integrity command center</h1>
+          <p class="lead">
+            A denser, higher-authority view of the interview system: session creation, live room
+            control, candidate readiness, alert stream, reporting, and evidence-aware notes.
+          </p>
+        </div>
+      </section>
+
+      <section class="grid stats" id="summary"></section>
+
+      <section class="admin-layout">
+        <div class="grid">
+          <div class="card">
+            <div class="badge">Scheduling</div>
+            <h2>Create interview slot</h2>
+            <form id="schedule-form" class="stack" style="margin-top:16px;">
+              <input name="candidateName" placeholder="Candidate name" required />
+              <input name="candidateEmail" placeholder="Candidate email" type="email" required />
+              <input name="interviewerName" placeholder="Interviewer name" required />
+              <input name="startsAt" type="datetime-local" required />
+              <select name="timeZone">
+                <option>Asia/Kolkata</option>
+                <option>UTC</option>
+                <option>America/New_York</option>
+                <option>Europe/London</option>
+              </select>
+              <select name="durationMinutes">
+                <option value="30">30 minutes</option>
+                <option value="45" selected>45 minutes</option>
+                <option value="60">60 minutes</option>
+              </select>
+              <select name="monitoringProfile">
+                <option value="strict" selected>Strict monitoring</option>
+                <option value="standard">Standard monitoring</option>
+              </select>
+              <button class="button" type="submit">Generate secure invite</button>
+            </form>
+            <div id="invite-output" class="invite-box">No interview created yet.</div>
+          </div>
+
+          <div class="card surface-dark">
+            <div class="badge">Operational Frame</div>
+            <h2>Review posture</h2>
+            <div class="notes-wall" style="margin-top:16px;">
+              <div class="note-block">
+                <strong>Bias toward evidence</strong>
+                <div class="muted">Use reports, notes, and timeline context before escalating a candidate decision.</div>
+              </div>
+              <div class="note-block">
+                <strong>Watch readiness</strong>
+                <div class="muted">Pre-check and room-presence states should be green before interview flow begins.</div>
+              </div>
+              <div class="note-block">
+                <strong>Use the room</strong>
+                <div class="muted">Join the live room directly from session cards to ask questions while the system monitors the candidate.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="admin-main">
+          <div class="card">
+            <div class="header-row">
+              <div>
+                <div class="badge">Live Sessions</div>
+                <h2>Interview rail</h2>
+              </div>
+              <div class="microcopy">Realtime session posture, readiness, and room actions</div>
+            </div>
+            <div id="sessions" class="session-list" style="margin-top:18px;"></div>
+          </div>
+
+          <div class="split-rail">
+            <div class="card">
+              <div class="badge">Incident Stream</div>
+              <h2>Alert timeline</h2>
+              <div id="alerts" class="alert-list" style="margin-top:18px;"></div>
+            </div>
+
+            <div class="card">
+              <div class="badge">System Lens</div>
+              <h2>Review notes</h2>
+              <div class="notes-wall" style="margin-top:18px;">
+                <div class="note-block">
+                  <strong>Session cards are now operational</strong>
+                  <div class="muted">Each session exposes room join, invite share, export, note-taking, warning, and fullscreen control from the same surface.</div>
+                </div>
+                <div class="note-block">
+                  <strong>Pre-checks are first-class</strong>
+                  <div class="muted">Candidate permissions, device state, network state, and framing are visible before and during the live call.</div>
+                </div>
+                <div class="note-block">
+                  <strong>Reports are exportable</strong>
+                  <div class="muted">Use Export report to capture incidents, notes, chat history, and readiness state for a finished interview record.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/assets/admin.js"></script>
+  </body>
+  </html>

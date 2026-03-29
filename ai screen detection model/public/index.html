@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Interview Monitoring</title>
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="topbar">
+        <div class="brand-lockup">
+          <div class="brand-mark"></div>
+          <div class="brand-copy">
+            <strong>Integrity OS</strong>
+            <span>AI interview monitoring platform</span>
+          </div>
+        </div>
+        <div class="topbar-actions">
+          <span class="eyebrow">Realtime</span>
+          <span class="eyebrow">Candidate + Admin</span>
+          <span class="eyebrow">Multimodal</span>
+        </div>
+      </section>
+
+      <section class="hero">
+        <div class="hero-main">
+          <div class="eyebrow">Unified Access Portal</div>
+          <h1>Interview control, risk intelligence, and live rooms in one system.</h1>
+          <p class="lead portal-kicker">
+            A high-contrast operating surface for interview scheduling, candidate room access,
+            live risk overlays, and realtime admin intervention. One portal at the top, sharply
+            separated workflows underneath.
+          </p>
+          <div class="metric-strip">
+            <div class="metric-card">
+              <span class="microcopy">Session model</span>
+              <div class="metric-value">2-way</div>
+              <div class="metric-trace"></div>
+            </div>
+            <div class="metric-card">
+              <span class="microcopy">Signal stack</span>
+              <div class="metric-value">4x</div>
+              <div class="microcopy">video, audio, browser, desktop</div>
+            </div>
+            <div class="metric-card">
+              <span class="microcopy">Alert mode</span>
+              <div class="metric-value">Live</div>
+              <div class="microcopy">overlay + dashboard + timeline</div>
+            </div>
+            <div class="metric-card surface-dark">
+              <span class="microcopy">Room style</span>
+              <div class="metric-value">Studio</div>
+              <div class="microcopy">candidate monitoring with admin presence</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-panels">
+          <div class="hero-panel surface-dark">
+            <div class="eyebrow">System Character</div>
+            <h3>Minimal on the surface. High-control underneath.</h3>
+            <p class="lead">
+              Designed as an interview command environment, not a generic dashboard. Clean white
+              planes, black operational controls, and intelligence-focused density.
+            </p>
+          </div>
+          <div class="hero-panel">
+            <div class="eyebrow">Access Logic</div>
+            <h3>Admins enter the console. Candidates enter the room.</h3>
+            <p class="lead">
+              The portal keeps role boundaries explicit so the admin surface never feels mixed with
+              the candidate room.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="portal-grid">
+        <div class="card">
+          <div class="header-row">
+            <div>
+              <div class="badge">Admin Login</div>
+              <h2>Enter the command center</h2>
+            </div>
+            <div class="microcopy">Default local password: <strong>admin123</strong></div>
+          </div>
+          <p class="lead">
+            Create sessions, open the live room, stream alerts, export reports, and mark
+            interviewer notes from one operating surface.
+          </p>
+          <form id="admin-login-form" class="stack" style="margin-top:16px;">
+            <input name="email" type="email" placeholder="Admin email" value="admin@local" />
+            <input name="password" type="password" placeholder="Admin password" required />
+            <button class="button" type="submit">Enter admin dashboard</button>
+            <div class="notice" id="admin-login-output">Only authorized reviewers should access the admin console.</div>
+          </form>
+        </div>
+
+        <div class="grid">
+          <div class="card">
+            <div class="badge">Candidate Access</div>
+            <h2>Open the designated interview room</h2>
+            <p class="lead">
+              Paste the full invite URL or only the signed candidate token. The portal routes the
+              candidate directly into the monitored live room.
+            </p>
+            <form id="candidate-login-form" class="stack" style="margin-top:16px;">
+              <input name="invite" placeholder="Paste invite link or token" required />
+              <button class="button secondary" type="submit">Open candidate room</button>
+              <div id="candidate-login-output" class="invite-box">Candidate access stays locked to the issued session token and expiry window.</div>
+            </form>
+          </div>
+
+          <div class="portal-insights">
+            <div class="kpi-block">
+              <div class="microcopy">Interview mode</div>
+              <h3>Live monitored studio</h3>
+            </div>
+            <div class="kpi-block">
+              <div class="microcopy">Admin actions</div>
+              <h3>Warn, note, export, end</h3>
+            </div>
+            <div class="kpi-block">
+              <div class="microcopy">Candidate state</div>
+              <h3>Pre-check, ready, connected</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/assets/index.js"></script>
+  </body>
+  </html>

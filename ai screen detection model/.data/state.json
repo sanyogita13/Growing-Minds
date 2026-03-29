@@ -1,0 +1,1825 @@
+{
+  "interviews": [
+    {
+      "id": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+      "token": "join_eyJzZXNzaW9uSWQiOiJzZXNzXzY3MWY2ODc4LWVlMTMtNGMyNi05ODAzLTU4OWEyOGYzYjMwZCIsImV4cGlyZXNBdCI6MTc3NDU0NjIzNzQzNX0.aHryk2OXU23X1emQljNLyyszguMO6DA6-Lw0ToFGNTw",
+      "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+      "candidateName": "Demo Candidate",
+      "candidateEmail": "candidate@example.com",
+      "interviewerName": "Admin",
+      "startsAt": "2026-03-25T17:30:37.434Z",
+      "timeZone": "Asia/Kolkata",
+      "durationMinutes": 45,
+      "monitoringProfile": "strict",
+      "status": "ended",
+      "createdAt": "2026-03-25T17:30:37.436Z",
+      "inviteExpiresAt": 1774546237435,
+      "inviteUrl": "http://192.168.29.81:3001/room.html?role=candidate&token=join_eyJzZXNzaW9uSWQiOiJzZXNzXzY3MWY2ODc4LWVlMTMtNGMyNi05ODAzLTU4OWEyOGYzYjMwZCIsImV4cGlyZXNBdCI6MTc3NDU0NjIzNzQzNX0.aHryk2OXU23X1emQljNLyyszguMO6DA6-Lw0ToFGNTw",
+      "publicBaseUrl": "http://192.168.29.81:3001",
+      "risk": {
+        "score": 3,
+        "updatedAt": "2026-03-25T17:51:30.366Z",
+        "reasons": [],
+        "counts": {
+          "fullscreen_exit": 18,
+          "face_missing": 23,
+          "gaze_away_excessive": 23,
+          "head_pose_suspicious": 26
+        }
+      },
+      "lastTelemetryAt": "2026-03-25T17:51:30.363Z",
+      "incidents": [
+        {
+          "id": "evt_5e2749b2-dade-43de-8a1f-5457727ece10",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:51:28.746Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_8d6b53ec-006e-4c81-a1e0-8b9c68a73c9c",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:51:26.639Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_c8c58027-8b2a-466d-b623-ffce75b6d618",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:51:24.535Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_493a0ab3-baac-472b-ad3f-aa6447b1c216",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:51:22.435Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_88167fef-d265-4734-9452-cc09916f3ac6",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:51:20.333Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_3a618325-be25-4f4b-8fa5-04c24e057ff9",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:51:18.239Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_0d452f15-4447-43c7-bc2a-a4338b6827a9",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "face_missing",
+          "confidence": 0.95,
+          "severity": "critical",
+          "timestamp": "2026-03-25T17:51:16.127Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_bad905bd-3ba7-41bf-a91b-f93f8e9e6a10",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "gaze_away_excessive",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:51:16.127Z",
+          "evidence": {
+            "gazeAwayScore": 1
+          }
+        },
+        {
+          "id": "evt_c856d6ec-a2a1-41de-b093-1ece91e7f3b5",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "head_pose_suspicious",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:51:16.127Z",
+          "evidence": {
+            "headPoseScore": 1
+          }
+        },
+        {
+          "id": "evt_f5b46fd6-7926-448e-bc10-a5459f9cc8d1",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:51:16.127Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_55d61978-c6ed-421f-bf4f-28b93bee32a7",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:51:14.029Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_03cf46f7-83d2-47f1-8cb6-d12039dc733f",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "face_missing",
+          "confidence": 0.95,
+          "severity": "critical",
+          "timestamp": "2026-03-25T17:51:13.326Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_bcd99527-86a6-46e2-9b71-de019f9179f0",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "gaze_away_excessive",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:51:13.326Z",
+          "evidence": {
+            "gazeAwayScore": 1
+          }
+        },
+        {
+          "id": "evt_d6abbef9-d78d-44cf-97c6-830235c667a6",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "head_pose_suspicious",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:51:13.326Z",
+          "evidence": {
+            "headPoseScore": 1
+          }
+        },
+        {
+          "id": "evt_7e9b90d4-1a8a-4af3-88be-47eb0520119c",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:51:11.920Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_f91913f6-114e-4217-918f-b726f555fda1",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "face_missing",
+          "confidence": 0.95,
+          "severity": "critical",
+          "timestamp": "2026-03-25T17:51:09.822Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_b0552071-0af0-4a06-8f32-56ecc6432ae8",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "gaze_away_excessive",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:51:09.822Z",
+          "evidence": {
+            "gazeAwayScore": 1
+          }
+        },
+        {
+          "id": "evt_e188b574-ac21-4df4-9ec4-a6f280173884",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "head_pose_suspicious",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:51:09.822Z",
+          "evidence": {
+            "headPoseScore": 1
+          }
+        },
+        {
+          "id": "evt_e52a9786-fdb7-459f-9b90-061e738eb010",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:51:09.822Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_78f843ef-3908-496c-8986-810a5e873085",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:51:07.730Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_6030a434-503b-4dbc-ad22-d4fc919c02a0",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:51:05.616Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_32b7c117-77d5-4c11-822a-3acbfe444933",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:51:03.523Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_b1ac034c-737c-41a4-bb48-5c75af667a69",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:51:01.159Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_d0eb330f-5af4-4bb6-9f5c-f9c7ab62be6b",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "head_pose_suspicious",
+          "confidence": 0.679,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:55.118Z",
+          "evidence": {
+            "headPoseScore": 0.679
+          }
+        },
+        {
+          "id": "evt_003a3a83-294e-4fb6-8403-3b0f243e96e5",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "face_missing",
+          "confidence": 0.95,
+          "severity": "critical",
+          "timestamp": "2026-03-25T17:50:27.758Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_65820c76-ce32-442c-8180-79151f534306",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "gaze_away_excessive",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:27.758Z",
+          "evidence": {
+            "gazeAwayScore": 1
+          }
+        },
+        {
+          "id": "evt_65b9ec14-347a-48aa-9970-ca41ebf4224a",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "head_pose_suspicious",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:27.758Z",
+          "evidence": {
+            "headPoseScore": 1
+          }
+        },
+        {
+          "id": "evt_e1114274-8aa5-4ed8-86c7-8e4e01dd2c07",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "face_missing",
+          "confidence": 0.95,
+          "severity": "critical",
+          "timestamp": "2026-03-25T17:50:25.654Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_bf2b835d-a340-4ef2-87da-831d26639942",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "gaze_away_excessive",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:25.654Z",
+          "evidence": {
+            "gazeAwayScore": 1
+          }
+        },
+        {
+          "id": "evt_cce728cc-bd86-428c-abfa-53fea770dc91",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "head_pose_suspicious",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:25.654Z",
+          "evidence": {
+            "headPoseScore": 1
+          }
+        },
+        {
+          "id": "evt_9e5543c7-81c8-48dc-a111-178ba271ffbf",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "face_missing",
+          "confidence": 0.95,
+          "severity": "critical",
+          "timestamp": "2026-03-25T17:50:23.552Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_903a7a64-9944-4706-9fb6-6cefff00bad1",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "gaze_away_excessive",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:23.553Z",
+          "evidence": {
+            "gazeAwayScore": 1
+          }
+        },
+        {
+          "id": "evt_22733296-de3d-4de2-8745-4f2f37835135",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "head_pose_suspicious",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:23.553Z",
+          "evidence": {
+            "headPoseScore": 1
+          }
+        },
+        {
+          "id": "evt_2c9302af-f3d8-4a54-92fa-fe490da70b2d",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "face_missing",
+          "confidence": 0.95,
+          "severity": "critical",
+          "timestamp": "2026-03-25T17:50:21.450Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_cb516699-7ccf-41c9-a291-d26fb8d285fe",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "gaze_away_excessive",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:21.450Z",
+          "evidence": {
+            "gazeAwayScore": 1
+          }
+        },
+        {
+          "id": "evt_9782eee9-cfe5-4f73-9ef2-7987843e4925",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "head_pose_suspicious",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:21.450Z",
+          "evidence": {
+            "headPoseScore": 1
+          }
+        },
+        {
+          "id": "evt_31215ae7-085a-47e5-9ac7-b619ea6318e2",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "face_missing",
+          "confidence": 0.95,
+          "severity": "critical",
+          "timestamp": "2026-03-25T17:50:17.967Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_5a974cbf-bbdb-4ade-b0d9-745dd9c171a5",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "gaze_away_excessive",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:17.967Z",
+          "evidence": {
+            "gazeAwayScore": 1
+          }
+        },
+        {
+          "id": "evt_dc39615d-98b1-4683-94d8-9517c773fac8",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "head_pose_suspicious",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:17.967Z",
+          "evidence": {
+            "headPoseScore": 1
+          }
+        },
+        {
+          "id": "evt_ec9f6796-c7d3-419d-8f29-74a66b7b97fd",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "face_missing",
+          "confidence": 0.95,
+          "severity": "critical",
+          "timestamp": "2026-03-25T17:50:15.858Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_142c7d60-cfdb-4501-b240-7b9bbfd8dc15",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "gaze_away_excessive",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:15.859Z",
+          "evidence": {
+            "gazeAwayScore": 1
+          }
+        },
+        {
+          "id": "evt_a60a89dc-f6ed-4842-b1a1-d40cd0287f8c",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "head_pose_suspicious",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:15.859Z",
+          "evidence": {
+            "headPoseScore": 1
+          }
+        },
+        {
+          "id": "evt_c79db7a3-cb9d-4ca4-b2c9-f925976a1f9a",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "face_missing",
+          "confidence": 0.95,
+          "severity": "critical",
+          "timestamp": "2026-03-25T17:50:13.760Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_adc6ebe4-21e4-4c40-86f2-73d73e1a2b63",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "gaze_away_excessive",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:13.760Z",
+          "evidence": {
+            "gazeAwayScore": 1
+          }
+        },
+        {
+          "id": "evt_e7c82aba-95c9-4e78-b3f6-49593652bea0",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "head_pose_suspicious",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:13.760Z",
+          "evidence": {
+            "headPoseScore": 1
+          }
+        },
+        {
+          "id": "evt_130c55dc-13e3-4aa8-83db-9739b4fdb6f0",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "face_missing",
+          "confidence": 0.95,
+          "severity": "critical",
+          "timestamp": "2026-03-25T17:50:11.659Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_5c602ff1-a57a-47b0-a05c-fa67a8e89a0b",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "gaze_away_excessive",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:11.659Z",
+          "evidence": {
+            "gazeAwayScore": 1
+          }
+        },
+        {
+          "id": "evt_c6fec9b0-89f6-4795-a730-e013b0d752c4",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "head_pose_suspicious",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:11.659Z",
+          "evidence": {
+            "headPoseScore": 1
+          }
+        },
+        {
+          "id": "evt_fd2b98f8-b781-43de-a74e-b2bbba5ced69",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "face_missing",
+          "confidence": 0.95,
+          "severity": "critical",
+          "timestamp": "2026-03-25T17:50:09.554Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_f9556115-2e7d-4a23-9bf9-332ac40fa1cf",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "gaze_away_excessive",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:09.554Z",
+          "evidence": {
+            "gazeAwayScore": 1
+          }
+        },
+        {
+          "id": "evt_bc9fa337-3c3c-4213-9805-79901c2352e6",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "head_pose_suspicious",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:09.554Z",
+          "evidence": {
+            "headPoseScore": 1
+          }
+        },
+        {
+          "id": "evt_07d845c5-0832-4135-8d02-78e5a72303d6",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "face_missing",
+          "confidence": 0.95,
+          "severity": "critical",
+          "timestamp": "2026-03-25T17:50:07.453Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_69976d60-beba-44a0-bb1b-97cdd330ff6b",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "gaze_away_excessive",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:07.453Z",
+          "evidence": {
+            "gazeAwayScore": 1
+          }
+        },
+        {
+          "id": "evt_67f1c240-2a4a-4bff-9c19-9279139fc87a",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "head_pose_suspicious",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:07.453Z",
+          "evidence": {
+            "headPoseScore": 1
+          }
+        },
+        {
+          "id": "evt_741647a1-bd1c-45c9-9b8d-3f29b1148a25",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "face_missing",
+          "confidence": 0.95,
+          "severity": "critical",
+          "timestamp": "2026-03-25T17:50:05.358Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_7b5ca969-a600-4b5a-b1d7-bdf3d5d3d9ab",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "gaze_away_excessive",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:05.358Z",
+          "evidence": {
+            "gazeAwayScore": 1
+          }
+        },
+        {
+          "id": "evt_7fad1f31-51cf-4b4b-a3a6-15f07187a0e2",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "head_pose_suspicious",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:05.358Z",
+          "evidence": {
+            "headPoseScore": 1
+          }
+        },
+        {
+          "id": "evt_3a0584af-075a-4a77-9a5c-d1172203f69f",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "face_missing",
+          "confidence": 0.95,
+          "severity": "critical",
+          "timestamp": "2026-03-25T17:50:03.255Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_06212baa-d28c-4707-a714-f49e0ed7026c",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "gaze_away_excessive",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:03.255Z",
+          "evidence": {
+            "gazeAwayScore": 1
+          }
+        },
+        {
+          "id": "evt_8e3fd0b6-4bd0-4109-83dd-470388a3dd13",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "head_pose_suspicious",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:03.255Z",
+          "evidence": {
+            "headPoseScore": 1
+          }
+        },
+        {
+          "id": "evt_a8dcbecd-e16d-40e5-9351-615d71b6a929",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "face_missing",
+          "confidence": 0.95,
+          "severity": "critical",
+          "timestamp": "2026-03-25T17:50:01.157Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_cb6bf096-384f-4f6b-b32e-400ad42b315f",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "gaze_away_excessive",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:01.157Z",
+          "evidence": {
+            "gazeAwayScore": 1
+          }
+        },
+        {
+          "id": "evt_3cee7e71-bc8f-4b3d-bbe5-a8f16fd51daa",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "head_pose_suspicious",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:50:01.157Z",
+          "evidence": {
+            "headPoseScore": 1
+          }
+        },
+        {
+          "id": "evt_e8f455dc-9371-4525-8186-5246beb877f4",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "face_missing",
+          "confidence": 0.95,
+          "severity": "critical",
+          "timestamp": "2026-03-25T17:49:57.652Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_bae25ecd-fe50-4698-83f5-b4298cc5b02e",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "gaze_away_excessive",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:49:57.652Z",
+          "evidence": {
+            "gazeAwayScore": 1
+          }
+        },
+        {
+          "id": "evt_d9f8593c-14c2-4169-bc2e-aa285fd4e9bf",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "head_pose_suspicious",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:49:57.652Z",
+          "evidence": {
+            "headPoseScore": 1
+          }
+        },
+        {
+          "id": "evt_1a5286c5-d72d-4f18-bfa3-345b205c5df5",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "face_missing",
+          "confidence": 0.95,
+          "severity": "critical",
+          "timestamp": "2026-03-25T17:49:55.549Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_7ec33f17-5fb9-4be3-a829-27b4a29975ac",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "gaze_away_excessive",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:49:55.549Z",
+          "evidence": {
+            "gazeAwayScore": 1
+          }
+        },
+        {
+          "id": "evt_5fc1b3f1-5193-48a9-b916-9d02e3ce91d9",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "head_pose_suspicious",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:49:55.549Z",
+          "evidence": {
+            "headPoseScore": 1
+          }
+        },
+        {
+          "id": "evt_d8a83c61-84d2-4cdf-a9bb-cb062e5611ee",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "face_missing",
+          "confidence": 0.95,
+          "severity": "critical",
+          "timestamp": "2026-03-25T17:49:50.643Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_452eff6c-ea74-4765-b199-ae1963444476",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "gaze_away_excessive",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:49:50.643Z",
+          "evidence": {
+            "gazeAwayScore": 1
+          }
+        },
+        {
+          "id": "evt_372fd62c-b453-430f-b441-78bf72a9d23a",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "head_pose_suspicious",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:49:50.643Z",
+          "evidence": {
+            "headPoseScore": 1
+          }
+        },
+        {
+          "id": "evt_5a70f5d5-2c96-4b27-b6ea-08c6890d7964",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "face_missing",
+          "confidence": 0.95,
+          "severity": "critical",
+          "timestamp": "2026-03-25T17:49:46.439Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_a13c9e65-7075-4407-92da-88499aa74998",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "gaze_away_excessive",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:49:46.439Z",
+          "evidence": {
+            "gazeAwayScore": 1
+          }
+        },
+        {
+          "id": "evt_3c1258a4-df90-4b76-8a30-40128dad28d0",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "head_pose_suspicious",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:49:46.439Z",
+          "evidence": {
+            "headPoseScore": 1
+          }
+        },
+        {
+          "id": "evt_2d9abb3a-f0b7-4a1f-978e-62471750287a",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "face_missing",
+          "confidence": 0.95,
+          "severity": "critical",
+          "timestamp": "2026-03-25T17:49:40.131Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_9dfaebed-d5ea-46c7-b85c-b257408e47b0",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "gaze_away_excessive",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:49:40.131Z",
+          "evidence": {
+            "gazeAwayScore": 1
+          }
+        },
+        {
+          "id": "evt_d21df035-673a-4808-9301-5d84544312d2",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "head_pose_suspicious",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:49:40.131Z",
+          "evidence": {
+            "headPoseScore": 1
+          }
+        },
+        {
+          "id": "evt_bd2a50b0-9f0c-4a5e-b615-9d050f4d1765",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "head_pose_suspicious",
+          "confidence": 0.724,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:49:37.315Z",
+          "evidence": {
+            "headPoseScore": 0.724
+          }
+        },
+        {
+          "id": "evt_1b7acdc0-a046-40a1-bb2a-1c91c6a4615e",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "head_pose_suspicious",
+          "confidence": 0.78,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:49:35.225Z",
+          "evidence": {
+            "headPoseScore": 0.78
+          }
+        },
+        {
+          "id": "evt_b1f2f96a-845f-4d17-9e95-cd5a8f675e34",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "face_missing",
+          "confidence": 0.95,
+          "severity": "critical",
+          "timestamp": "2026-03-25T17:49:21.908Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_8cc486bb-68e0-4c9d-9d1c-8cb0ff80897a",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "gaze_away_excessive",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:49:21.908Z",
+          "evidence": {
+            "gazeAwayScore": 1
+          }
+        },
+        {
+          "id": "evt_cf566ee3-ea17-4a88-8b60-98bc4c674ca7",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "head_pose_suspicious",
+          "confidence": 0.792,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:49:21.209Z",
+          "evidence": {
+            "headPoseScore": 0.792
+          }
+        },
+        {
+          "id": "evt_ad710503-5b3f-45bb-a4b0-9087b0bbfedc",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "face_missing",
+          "confidence": 0.95,
+          "severity": "critical",
+          "timestamp": "2026-03-25T17:49:17.004Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_b5974384-7352-48d1-b46f-6ca6c08e2f8c",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "gaze_away_excessive",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:49:17.004Z",
+          "evidence": {
+            "gazeAwayScore": 1
+          }
+        },
+        {
+          "id": "evt_5d5ce488-ad8d-4b34-af19-088eba2d6b9a",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "head_pose_suspicious",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:49:17.005Z",
+          "evidence": {
+            "headPoseScore": 1
+          }
+        },
+        {
+          "id": "evt_50d1dcc3-eb52-42e4-9a64-5234adecab5e",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:49:09.955Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_b693403a-257d-4b9e-98a8-ccf22918fe2a",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:49:07.851Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_53f25089-3dda-46a2-a59e-06a4413c9f6d",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:49:05.755Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_0ef7e853-df66-4ac2-9892-62876373c780",
+          "sessionId": "sess_671f6878-ee13-4c26-9803-589a28f3b30d",
+          "candidateId": "cand_723366a1-76ed-40b7-9498-a28bb11138c4",
+          "candidateName": "Demo Candidate",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-25T17:49:03.597Z",
+          "evidence": {}
+        }
+      ],
+      "controls": {
+        "warning": "",
+        "ended": true,
+        "fullscreenRequired": true
+      },
+      "telemetry": {
+        "browser": {
+          "focused": true,
+          "fullScreen": false,
+          "visibilityState": "visible",
+          "screenShareActive": false,
+          "devtoolsLikelyOpen": false
+        },
+        "localSignals": {
+          "facePresent": true,
+          "facesDetected": 1,
+          "gazeAwayScore": 0.165,
+          "headPoseScore": 0.309,
+          "phoneDetected": false,
+          "motionScore": 0.006,
+          "audioLevel": 0.011,
+          "multipleVoices": false,
+          "promptAudioScore": 0
+        },
+        "desktop": null
+      },
+      "chat": [
+        {
+          "id": "msg_0093262b-ca05-4fbd-97df-7857b7b64847",
+          "createdAt": "2026-03-25T17:37:24.196Z",
+          "authorRole": "admin",
+          "authorName": "Admin",
+          "text": "hey"
+        }
+      ],
+      "notes": [],
+      "precheck": {
+        "device": "camera+mic detected",
+        "network": "stable",
+        "permissions": "ok",
+        "framing": "adjust camera framing",
+        "completedAt": "2026-03-25T17:49:03.484Z"
+      },
+      "presence": {
+        "adminJoined": true,
+        "candidateJoined": true,
+        "adminReady": false,
+        "candidateReady": false,
+        "adminAudioLevel": 0.117,
+        "candidateAudioLevel": 0.011
+      },
+      "lastIncidentAt": {
+        "fullscreen_exit": 1774461088746,
+        "face_missing": 1774461076127,
+        "gaze_away_excessive": 1774461076127,
+        "head_pose_suspicious": 1774461076127
+      }
+    },
+    {
+      "id": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+      "token": "join_eyJzZXNzaW9uSWQiOiJzZXNzX2RiNWE2ZGI1LTQ3YjMtNDM1OS05OTU1LWJmNzQ0M2NlYTZlZiIsImV4cGlyZXNBdCI6MTc3NDU5NzQ3MTQxNH0.3MwEh9qO1HVI8V6zMaO6WUKruv11JJvjc8iP2ci0Mqw",
+      "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+      "candidateName": "aditya",
+      "candidateEmail": "gj656@gmail.com",
+      "interviewerName": "ak",
+      "startsAt": "2026-03-26T07:44:00.000Z",
+      "timeZone": "Asia/Kolkata",
+      "durationMinutes": 45,
+      "monitoringProfile": "strict",
+      "status": "live",
+      "createdAt": "2026-03-26T07:44:31.419Z",
+      "inviteExpiresAt": 1774597471414,
+      "inviteUrl": "http://127.0.0.1:3000/room.html?role=candidate&token=join_eyJzZXNzaW9uSWQiOiJzZXNzX2RiNWE2ZGI1LTQ3YjMtNDM1OS05OTU1LWJmNzQ0M2NlYTZlZiIsImV4cGlyZXNBdCI6MTc3NDU5NzQ3MTQxNH0.3MwEh9qO1HVI8V6zMaO6WUKruv11JJvjc8iP2ci0Mqw",
+      "publicBaseUrl": "http://127.0.0.1:3000",
+      "risk": {
+        "score": 4,
+        "updatedAt": "2026-03-26T07:46:26.822Z",
+        "reasons": [],
+        "counts": {
+          "fullscreen_exit": 16,
+          "face_missing": 2,
+          "gaze_away_excessive": 3,
+          "head_pose_suspicious": 6
+        }
+      },
+      "lastTelemetryAt": "2026-03-26T07:46:26.820Z",
+      "incidents": [
+        {
+          "id": "evt_73cf2618-6682-4447-96f5-eb76afe7675a",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-26T07:46:25.741Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_594878d7-31da-4d66-b665-940cede367f6",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-26T07:46:23.658Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_50339679-7a64-40a0-b20e-6771cd2d4893",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-26T07:46:21.556Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_e004b314-509d-4613-a98c-0613d3807d7c",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-26T07:46:19.440Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_70fc0995-701e-40c2-8483-63c87c52f714",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-26T07:46:17.352Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_0a9f17fd-9c67-45e7-8d56-d4ec4caaddf3",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-26T07:46:15.237Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_eb34fe91-a7c4-4229-93b3-c9d15a613f4c",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-26T07:46:13.127Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_04815675-ebd0-499e-b5ec-1904cc3ef651",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-26T07:46:11.044Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_ba6dac74-fa30-420d-9c6e-734e0aa85c8e",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-26T07:46:08.942Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_6d0866f9-d9a7-47b0-98be-0898b3321c20",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-26T07:46:06.843Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_1a7d70fc-6968-4219-9c79-dba6b9111270",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-26T07:46:04.945Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_b57254f1-681f-4552-90a1-7f825d0432b5",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "head_pose_suspicious",
+          "confidence": 0.821,
+          "severity": "medium",
+          "timestamp": "2026-03-26T07:45:53.530Z",
+          "evidence": {
+            "headPoseScore": 0.821
+          }
+        },
+        {
+          "id": "evt_24e53757-7c0f-4813-9a40-d813851095dc",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "head_pose_suspicious",
+          "confidence": 0.658,
+          "severity": "medium",
+          "timestamp": "2026-03-26T07:45:48.626Z",
+          "evidence": {
+            "headPoseScore": 0.658
+          }
+        },
+        {
+          "id": "evt_6287fd7d-c81c-411f-b870-a077d64d24de",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "head_pose_suspicious",
+          "confidence": 0.767,
+          "severity": "medium",
+          "timestamp": "2026-03-26T07:45:37.412Z",
+          "evidence": {
+            "headPoseScore": 0.767
+          }
+        },
+        {
+          "id": "evt_d4c21536-3191-43d1-a489-65442f48d602",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "gaze_away_excessive",
+          "confidence": 0.881,
+          "severity": "medium",
+          "timestamp": "2026-03-26T07:45:20.592Z",
+          "evidence": {
+            "gazeAwayScore": 0.881
+          }
+        },
+        {
+          "id": "evt_c35904c8-565a-4df1-8531-ec117d31f0b3",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "head_pose_suspicious",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-26T07:45:20.592Z",
+          "evidence": {
+            "headPoseScore": 1
+          }
+        },
+        {
+          "id": "evt_0dbd5c66-3ee5-40a9-b839-b1a818ac7dcf",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "face_missing",
+          "confidence": 0.95,
+          "severity": "critical",
+          "timestamp": "2026-03-26T07:45:18.479Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_7bb69412-ac6d-4b47-8d27-16d8e87afc58",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "gaze_away_excessive",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-26T07:45:18.479Z",
+          "evidence": {
+            "gazeAwayScore": 1
+          }
+        },
+        {
+          "id": "evt_8beb9e37-d957-4d43-b79a-47075bca19a8",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "head_pose_suspicious",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-26T07:45:18.479Z",
+          "evidence": {
+            "headPoseScore": 1
+          }
+        },
+        {
+          "id": "evt_422cd148-40ea-4b08-a884-09dda65e238e",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "face_missing",
+          "confidence": 0.95,
+          "severity": "critical",
+          "timestamp": "2026-03-26T07:45:15.685Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_c54a96aa-c7d1-4a63-a3b5-daf7b5110413",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "gaze_away_excessive",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-26T07:45:15.685Z",
+          "evidence": {
+            "gazeAwayScore": 1
+          }
+        },
+        {
+          "id": "evt_593e5011-58aa-40c5-9e13-d6ed87e9ff4c",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "head_pose_suspicious",
+          "confidence": 1,
+          "severity": "medium",
+          "timestamp": "2026-03-26T07:45:15.685Z",
+          "evidence": {
+            "headPoseScore": 1
+          }
+        },
+        {
+          "id": "evt_21eb0834-0a18-4135-9c2f-55e195ad1de6",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-26T07:45:10.781Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_60afd72b-6a8d-4e13-bcb9-1f96e7054f31",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-26T07:45:08.681Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_7e240f4c-cfbd-47aa-baef-e68f471acab4",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-26T07:45:06.578Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_1dcf255d-1993-4876-a1a8-ced0e4f5f707",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-26T07:45:04.480Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_d92bef6c-7eb2-41e6-aecb-1ad628c1bf7e",
+          "sessionId": "sess_db5a6db5-47b3-4359-9955-bf7443cea6ef",
+          "candidateId": "cand_ed732a5f-ab09-4957-bc07-c7b89ece2577",
+          "candidateName": "aditya",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-26T07:45:02.320Z",
+          "evidence": {}
+        }
+      ],
+      "controls": {
+        "warning": "",
+        "ended": false,
+        "fullscreenRequired": true
+      },
+      "telemetry": {
+        "browser": {
+          "focused": true,
+          "fullScreen": false,
+          "visibilityState": "visible",
+          "screenShareActive": false,
+          "devtoolsLikelyOpen": false
+        },
+        "localSignals": {
+          "facePresent": true,
+          "facesDetected": 1,
+          "gazeAwayScore": 0.212,
+          "headPoseScore": 0.337,
+          "phoneDetected": false,
+          "motionScore": 0.01,
+          "audioLevel": 0.04,
+          "multipleVoices": false,
+          "promptAudioScore": 0
+        },
+        "desktop": null
+      },
+      "chat": [],
+      "notes": [],
+      "precheck": {
+        "device": "camera+mic detected",
+        "network": "stable",
+        "permissions": "ok",
+        "framing": "adjust camera framing",
+        "completedAt": "2026-03-26T07:45:02.212Z"
+      },
+      "presence": {
+        "adminJoined": true,
+        "candidateJoined": true,
+        "adminReady": false,
+        "candidateReady": false,
+        "adminAudioLevel": 0.218,
+        "candidateAudioLevel": 0.04
+      },
+      "lastIncidentAt": {
+        "fullscreen_exit": 1774511185741,
+        "face_missing": 1774511118479,
+        "gaze_away_excessive": 1774511120592,
+        "head_pose_suspicious": 1774511153530
+      }
+    },
+    {
+      "id": "sess_90dcafe3-6815-455b-9211-64ffe2d9a61f",
+      "token": "join_eyJzZXNzaW9uSWQiOiJzZXNzXzkwZGNhZmUzLTY4MTUtNDU1Yi05MjExLTY0ZmZlMmQ5YTYxZiIsImV4cGlyZXNBdCI6MTc3NDY3Mjc3MDA3MX0.KNIt94Rx7txov9Mw86hG_9e1UsQBy2zZr8fF9sJYZUQ",
+      "candidateId": "cand_24f915f2-a5de-4e16-95bd-894e133e487c",
+      "candidateName": "aditya ",
+      "candidateEmail": "gj6561137@gmail.com",
+      "interviewerName": "maish",
+      "startsAt": "2026-03-27T04:39:00.000Z",
+      "timeZone": "Asia/Kolkata",
+      "durationMinutes": 45,
+      "monitoringProfile": "strict",
+      "status": "live",
+      "createdAt": "2026-03-27T04:39:30.071Z",
+      "inviteExpiresAt": 1774672770071,
+      "inviteUrl": "http://127.0.0.1:3000/room.html?role=candidate&token=join_eyJzZXNzaW9uSWQiOiJzZXNzXzkwZGNhZmUzLTY4MTUtNDU1Yi05MjExLTY0ZmZlMmQ5YTYxZiIsImV4cGlyZXNBdCI6MTc3NDY3Mjc3MDA3MX0.KNIt94Rx7txov9Mw86hG_9e1UsQBy2zZr8fF9sJYZUQ",
+      "publicBaseUrl": "http://127.0.0.1:3000",
+      "risk": {
+        "score": 4,
+        "updatedAt": "2026-03-27T04:40:34.123Z",
+        "reasons": [],
+        "counts": {
+          "fullscreen_exit": 11,
+          "tab_switch": 4
+        }
+      },
+      "lastTelemetryAt": "2026-03-27T04:40:34.119Z",
+      "incidents": [
+        {
+          "id": "evt_3f0c5fb3-58ec-42c5-a0b2-2d5b832b0224",
+          "sessionId": "sess_90dcafe3-6815-455b-9211-64ffe2d9a61f",
+          "candidateId": "cand_24f915f2-a5de-4e16-95bd-894e133e487c",
+          "candidateName": "aditya ",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-27T04:40:32.870Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_af8235fa-3222-4f89-ab8a-b74e49ec5ae3",
+          "sessionId": "sess_90dcafe3-6815-455b-9211-64ffe2d9a61f",
+          "candidateId": "cand_24f915f2-a5de-4e16-95bd-894e133e487c",
+          "candidateName": "aditya ",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-27T04:40:30.769Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_8a36429b-3290-4481-ad6b-e9bbce9a2c2e",
+          "sessionId": "sess_90dcafe3-6815-455b-9211-64ffe2d9a61f",
+          "candidateId": "cand_24f915f2-a5de-4e16-95bd-894e133e487c",
+          "candidateName": "aditya ",
+          "type": "tab_switch",
+          "confidence": 0.93,
+          "severity": "high",
+          "timestamp": "2026-03-27T04:40:30.069Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_3a2c0e19-6894-4e15-bd11-593288b17d08",
+          "sessionId": "sess_90dcafe3-6815-455b-9211-64ffe2d9a61f",
+          "candidateId": "cand_24f915f2-a5de-4e16-95bd-894e133e487c",
+          "candidateName": "aditya ",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-27T04:40:28.663Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_8db6caed-4583-4dfb-acd8-aaa0deeb72f6",
+          "sessionId": "sess_90dcafe3-6815-455b-9211-64ffe2d9a61f",
+          "candidateId": "cand_24f915f2-a5de-4e16-95bd-894e133e487c",
+          "candidateName": "aditya ",
+          "type": "tab_switch",
+          "confidence": 0.93,
+          "severity": "high",
+          "timestamp": "2026-03-27T04:40:27.593Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_7d827d81-3088-4bf2-97de-aecaeda88e10",
+          "sessionId": "sess_90dcafe3-6815-455b-9211-64ffe2d9a61f",
+          "candidateId": "cand_24f915f2-a5de-4e16-95bd-894e133e487c",
+          "candidateName": "aditya ",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-27T04:40:26.565Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_d45171c7-9a81-4383-9b18-345e03dac355",
+          "sessionId": "sess_90dcafe3-6815-455b-9211-64ffe2d9a61f",
+          "candidateId": "cand_24f915f2-a5de-4e16-95bd-894e133e487c",
+          "candidateName": "aditya ",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-27T04:40:24.454Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_c3b6c1a7-d5ca-43f4-a8be-79c7d73e80f7",
+          "sessionId": "sess_90dcafe3-6815-455b-9211-64ffe2d9a61f",
+          "candidateId": "cand_24f915f2-a5de-4e16-95bd-894e133e487c",
+          "candidateName": "aditya ",
+          "type": "tab_switch",
+          "confidence": 0.93,
+          "severity": "high",
+          "timestamp": "2026-03-27T04:40:22.259Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_4a5b47b8-fc6b-45f6-bea7-760bf304c6aa",
+          "sessionId": "sess_90dcafe3-6815-455b-9211-64ffe2d9a61f",
+          "candidateId": "cand_24f915f2-a5de-4e16-95bd-894e133e487c",
+          "candidateName": "aditya ",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-27T04:40:22.259Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_b748de6c-a2e2-4c3f-814b-6988db8dbfdc",
+          "sessionId": "sess_90dcafe3-6815-455b-9211-64ffe2d9a61f",
+          "candidateId": "cand_24f915f2-a5de-4e16-95bd-894e133e487c",
+          "candidateName": "aditya ",
+          "type": "tab_switch",
+          "confidence": 0.93,
+          "severity": "high",
+          "timestamp": "2026-03-27T04:40:20.287Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_d01d7a58-a934-4060-bc8c-258276a46ca6",
+          "sessionId": "sess_90dcafe3-6815-455b-9211-64ffe2d9a61f",
+          "candidateId": "cand_24f915f2-a5de-4e16-95bd-894e133e487c",
+          "candidateName": "aditya ",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-27T04:40:20.226Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_1a53b025-e6a8-4203-ac05-77297dd7081c",
+          "sessionId": "sess_90dcafe3-6815-455b-9211-64ffe2d9a61f",
+          "candidateId": "cand_24f915f2-a5de-4e16-95bd-894e133e487c",
+          "candidateName": "aditya ",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-27T04:39:50.830Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_995fcef7-2b51-419f-b0c8-e0f1bf0ad1fe",
+          "sessionId": "sess_90dcafe3-6815-455b-9211-64ffe2d9a61f",
+          "candidateId": "cand_24f915f2-a5de-4e16-95bd-894e133e487c",
+          "candidateName": "aditya ",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-27T04:39:48.728Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_02887ff6-7d89-41b8-8df2-6e5134b33ac3",
+          "sessionId": "sess_90dcafe3-6815-455b-9211-64ffe2d9a61f",
+          "candidateId": "cand_24f915f2-a5de-4e16-95bd-894e133e487c",
+          "candidateName": "aditya ",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-27T04:39:46.628Z",
+          "evidence": {}
+        },
+        {
+          "id": "evt_e1953fe7-24ab-4ad6-b653-be0406b101e6",
+          "sessionId": "sess_90dcafe3-6815-455b-9211-64ffe2d9a61f",
+          "candidateId": "cand_24f915f2-a5de-4e16-95bd-894e133e487c",
+          "candidateName": "aditya ",
+          "type": "fullscreen_exit",
+          "confidence": 0.88,
+          "severity": "medium",
+          "timestamp": "2026-03-27T04:39:44.508Z",
+          "evidence": {}
+        }
+      ],
+      "controls": {
+        "warning": "",
+        "ended": false,
+        "fullscreenRequired": true
+      },
+      "telemetry": {
+        "browser": {
+          "focused": true,
+          "fullScreen": false,
+          "visibilityState": "visible",
+          "screenShareActive": false,
+          "devtoolsLikelyOpen": false
+        },
+        "localSignals": {
+          "facePresent": true,
+          "facesDetected": 1,
+          "gazeAwayScore": 0.007,
+          "headPoseScore": 0.006,
+          "phoneDetected": false,
+          "motionScore": 0.003,
+          "audioLevel": 0.139,
+          "multipleVoices": false,
+          "promptAudioScore": 0
+        },
+        "desktop": null
+      },
+      "chat": [],
+      "notes": [],
+      "precheck": {
+        "device": "camera+mic detected",
+        "network": "offline",
+        "permissions": "ok",
+        "framing": "adjust camera framing",
+        "completedAt": "2026-03-27T04:39:44.492Z"
+      },
+      "presence": {
+        "adminJoined": false,
+        "candidateJoined": true,
+        "adminReady": false,
+        "candidateReady": false,
+        "adminAudioLevel": 0,
+        "candidateAudioLevel": 0.139
+      },
+      "lastIncidentAt": {
+        "fullscreen_exit": 1774586432870,
+        "tab_switch": 1774586430069
+      }
+    }
+  ],
+  "adminSessions": [
+    [
+      "adm_513526ad-86ae-40c6-a504-3e9051c32138",
+      {
+        "issuedAt": 1774586294261,
+        "expiresAt": 1774629494261
+      }
+    ]
+  ]
+}

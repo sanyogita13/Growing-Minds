@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Live Interview Room</title>
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="topbar">
+        <div class="brand-lockup">
+          <div class="brand-mark"></div>
+          <div class="brand-copy">
+            <strong>Integrity OS</strong>
+            <span>Live interview studio</span>
+          </div>
+        </div>
+        <div class="topbar-actions">
+          <span class="eyebrow" id="room-role-badge">Live Room</span>
+        </div>
+      </section>
+
+      <section class="hero compact">
+        <div class="hero-main">
+          <h1 id="room-title">Realtime interview room</h1>
+          <p class="lead" id="room-summary">Connecting live media, monitoring, and interview controls.</p>
+          <div class="notice" id="secure-context-note">Camera and microphone will be requested after you press Join call.</div>
+        </div>
+      </section>
+
+      <section class="admin-layout room-layout">
+        <div class="grid side-stack">
+          <div class="card">
+            <div class="badge">Call Controls</div>
+            <h2>Room operations</h2>
+            <div class="stack" style="margin-top:16px;">
+              <button class="button secondary" id="join-call">Join call</button>
+              <button class="button secondary" id="fullscreen-toggle">Enter fullscreen</button>
+              <button class="button secondary" id="mute-toggle">Mute mic</button>
+              <button class="button secondary" id="camera-toggle">Hide camera</button>
+              <button class="button secondary" id="ready-toggle">Mark ready</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="badge">Pre-checks</div>
+            <h2>Readiness</h2>
+            <div id="precheck-grid" class="stack" style="margin-top:16px;"></div>
+            <div class="notice" id="room-warning" style="margin-top:14px;">No current warning.</div>
+          </div>
+
+          <div class="card">
+            <div class="badge">Session Feed</div>
+            <h2>Realtime signals</h2>
+            <div id="room-status" class="stack" style="margin-top:16px;"></div>
+            <div id="incident-feed" class="stack" style="margin-top:14px;"></div>
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="card room-stage">
+            <div class="header-row">
+              <div>
+                <div class="badge">Live Session</div>
+                <h2>Video stage</h2>
+              </div>
+              <div class="microcopy">Remote call + candidate monitoring overlays</div>
+            </div>
+
+            <div class="video-grid">
+              <div class="video-shell main-shell" id="remote-shell">
+                <video id="remote-video" class="preview preview-stage" autoplay playsinline></video>
+                <div class="video-label" id="remote-label">Remote participant</div>
+                <div class="speaking-pill" id="remote-speaking">Remote silent</div>
+                <div class="danger-overlay hidden" id="alert-overlay">
+                  <div class="danger-chip">Live integrity alert</div>
+                  <div class="danger-text" id="alert-text">No active alert.</div>
+                </div>
+              </div>
+
+              <div class="video-shell pip-shell" id="local-shell">
+                <video id="local-video" class="preview" autoplay muted playsinline></video>
+                <div class="video-label" id="local-label">Your camera</div>
+                <div class="speaking-pill" id="local-speaking">Mic idle</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="badge">Live Chat</div>
+            <h2>Interview conversation</h2>
+            <div id="chat-feed" class="chat-feed" style="margin-top:16px;"></div>
+            <form id="chat-form" class="chat-form">
+              <input id="chat-input" placeholder="Type a question or message" />
+              <button class="button" type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/assets/room.js"></script>
+  </body>
+  </html>
