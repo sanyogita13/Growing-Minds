@@ -1,0 +1,46 @@
+{
+  "Data Scientist": {
+    "required_skills": ["Python", "Machine Learning", "Statistics", "SQL", "NLP"],
+    "preferred_skills": ["Deep Learning", "TensorFlow", "Pandas", "Data Visualization"],
+    "preferred_qualifications": ["Strong portfolio of ML projects", "Experience with experimentation"],
+    "scoring_weights": {
+      "skill_match": 45,
+      "experience": 20,
+      "education": 15,
+      "additional": 20
+    }
+  },
+  "Software Engineer": {
+    "required_skills": ["Data Structures", "Algorithms", "Python", "Java", "System Design"],
+    "preferred_skills": ["FastAPI", "React", "Docker", "PostgreSQL"],
+    "preferred_qualifications": ["Backend or full-stack projects", "API design experience"],
+    "scoring_weights": {
+      "skill_match": 40,
+      "experience": 30,
+      "education": 10,
+      "additional": 20
+    }
+  },
+  "Marketing": {
+    "required_skills": ["SEO", "Content Strategy", "Campaign Management", "Analytics"],
+    "preferred_skills": ["Google Ads", "Meta Ads", "Copywriting", "Brand Strategy"],
+    "preferred_qualifications": ["Campaign portfolio", "Growth metrics ownership"],
+    "scoring_weights": {
+      "skill_match": 35,
+      "experience": 30,
+      "education": 10,
+      "additional": 25
+    }
+  },
+  "Product Manager": {
+    "required_skills": ["Product Strategy", "Roadmapping", "Stakeholder Management", "Analytics"],
+    "preferred_skills": ["User Research", "A/B Testing", "SQL", "Wireframing"],
+    "preferred_qualifications": ["Cross-functional delivery", "Outcome ownership"],
+    "scoring_weights": {
+      "skill_match": 35,
+      "experience": 30,
+      "education": 10,
+      "additional": 25
+    }
+  }
+}

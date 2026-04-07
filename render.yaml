@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: hiresight-api
+    runtime: docker
+    dockerfilePath: ./apps/api/Dockerfile
+    rootDir: ./apps/api
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ACCESS_TOKEN_TTL_MINUTES
+        value: "120"
+      - key: ALLOWED_ORIGINS
+        value: https://hiresight-web.vercel.app
+
+  - type: web
+    name: hiresight-web
+    runtime: docker
+    dockerfilePath: ./apps/web/Dockerfile
+    rootDir: ./apps/web
+    envVars:
+      - key: NEXT_PUBLIC_API_BASE_URL
+        value: https://hiresight-api.onrender.com
+      - key: NEXT_PUBLIC_WS_URL
+        value: wss://hiresight-api.onrender.com/ws/organizations/org-demo/events
